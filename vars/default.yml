@@ -1,0 +1,14 @@
+---
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "devops@2021"
+mysql_db: "wordpress"
+mysql_user: "wordpress"
+mysql_password: "wordpress"
+
+#HTTP Settings
+http_host: "ec2-52-66-97-41.ap-south-1.compute.amazonaws.com"
+http_conf: "ec2-52-66-97-41.ap-south-1.compute.amazonaws.com.conf"
+http_port: "80"
